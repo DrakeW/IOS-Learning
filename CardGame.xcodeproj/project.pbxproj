@@ -15,6 +15,7 @@
 		B03DD0A31A9C81420065EA4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03DD0A21A9C81420065EA4D /* Images.xcassets */; };
 		B03DD0A61A9C81420065EA4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B03DD0A41A9C81420065EA4D /* LaunchScreen.xib */; };
 		B03DD0B21A9C81420065EA4D /* CardGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03DD0B11A9C81420065EA4D /* CardGameTests.m */; };
+		B03DD0BD1A9C819A0065EA4D /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = B03DD0BC1A9C819A0065EA4D /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		B03DD0AB1A9C81420065EA4D /* CardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03DD0B01A9C81420065EA4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B03DD0B11A9C81420065EA4D /* CardGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameTests.m; sourceTree = "<group>"; };
+		B03DD0BB1A9C81800065EA4D /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		B03DD0BC1A9C819A0065EA4D /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				B03DD0961A9C81420065EA4D /* AppDelegate.h */,
 				B03DD0971A9C81420065EA4D /* AppDelegate.m */,
 				B03DD09C1A9C81420065EA4D /* ViewController.h */,
+				B03DD0BB1A9C81800065EA4D /* Card.h */,
+				B03DD0BC1A9C819A0065EA4D /* Card.m */,
 				B03DD09D1A9C81420065EA4D /* ViewController.m */,
 				B03DD09F1A9C81420065EA4D /* Main.storyboard */,
 				B03DD0A21A9C81420065EA4D /* Images.xcassets */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03DD0BD1A9C819A0065EA4D /* Card.m in Sources */,
 				B03DD09B1A9C81420065EA4D /* CardGame.xcdatamodeld in Sources */,
 				B03DD0981A9C81420065EA4D /* AppDelegate.m in Sources */,
 				B03DD09E1A9C81420065EA4D /* ViewController.m in Sources */,
